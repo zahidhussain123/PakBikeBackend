@@ -37,7 +37,7 @@ mongoose.connect(
   "mongodb+srv://bike_api:bike123@cluster0.zjrhj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority "
 );
 mongoose.connection.on('error', err=>{
-    console.log('conneccctionnn faileddd.........');
+    console.log('conneccction failed.........');
 });
 mongoose.connection.on('connected', connected=>{
     console.log('connected with database...........');

@@ -8,7 +8,7 @@ var checkAuth = require("../middleware/Rent");
 // get method
 router.get("/", (req, res, next) => {
   res.json({
-    message: "successsssssssssssssssss",
+    message: "success",
   });
 });
 

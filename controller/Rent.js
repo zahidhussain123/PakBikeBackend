@@ -9,7 +9,7 @@ exports.getRent = (req, res, next) => {
     .exec()
     .then((data) => {
       res.status(200).json({
-        message: "OKKKKKKK",
+        message: "OK",
         results: data,
       });
     })
