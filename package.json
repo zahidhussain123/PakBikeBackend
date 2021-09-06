@@ -1,0 +1,31 @@
+{
+  "name": "bike-api",
+  "version": "1.0.0",
+  "description": "rest apiiii",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "restful",
+    "api"
+  ],
+  "author": "shani malik",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "history": "^5.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.2",
+    "multer": "^1.4.2",
+    "node-time-ago": "^1.0.0",
+    "nodemon": "^2.0.7",
+    "s": "^1.0.0"
+  }
+}
